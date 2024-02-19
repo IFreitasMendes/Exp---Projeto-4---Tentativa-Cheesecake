@@ -32,6 +32,15 @@ main img {
 p{
   font-size: 1.4rem;
 }
+span{
+  font-weight: bold;
+}
+ul li{
+  margin-left: 1.8rem;
+}
+ol li{
+  margin-left: 1.8rem;
+}
 button{
   font-family: "Source Serif 4", serif;
   font-size: 1.0rem;
