@@ -34,17 +34,20 @@ main img {
 
   margin-bottom: 4.0rem;
 }
-p{
+main p{
   font-size: 1.4rem;
 }
 span{
   font-weight: bold;
+  font-size: 1.4rem;
 }
 ul li{
   margin-left: 1.8rem;
+  font-size: 1.4rem;
 }
 ol li{
   margin-left: 1.8rem;
+  font-size: 1.4rem;
 }
 button{
   font-family: "Source Serif 4", serif;
@@ -57,4 +60,35 @@ button{
   padding: 0.7rem 1.2rem;
   border-radius: 0.6rem;
   border: none;
+}
+
+@media (min-width: 768px){
+  body{
+    background-image: url(./assets/old-paper-texture-beige-craft-cardboard-vintage-canvas-surface\ 1.png);
+    padding-top: 4.5rem ;
+    padding-bottom: 4.5rem;
+    padding-inline: 7.6rem;
+  }
+  main{
+    display: flex;
+    gap: 18.9rem;
+    max-width: 114.9em;
+
+    margin-inline: auto;
+    
+  }
+  main div {
+    width: 30.5em;
+  }
+  main div .mododepreparo{
+    width: 52.5em;
+  }
+
+  .descricaoreceita h1{
+    text-align: center;
+  }
+  .descricaoreceita :nth-child(2){
+    display: flex;
+    margin-inline: auto;
+  }
 }
